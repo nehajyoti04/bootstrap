@@ -5,17 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Basic Bootstrap Template</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- Optional Bootstrap theme -->
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <style>
+
+    </style>
 </head>
 <body>
   <h1>Contact Us</h1>
+
   <div>
     Have questions ....
   </div>
-  <div>
-    want to get in touch etc...
+
+  <div class="row">
+    <div class="col-md-12">
+      <img src="contact.png" style="width: 100%;" class="img-responsive"/>
+    </div>
+  </div>
+
   </div>
   <form name="contact-us" class="form-horizontal" role="form" method="post" action="send-message.php">
     <div class="row form-group">
@@ -25,6 +42,19 @@
       <div class='col-sm-4'>
         <input placeholder="Last Name" class="form-control" id="user_lastname" name="user[lastname]" required="true" size="30" type="text" />
       </div>
+  </div>
+
+  <div class='row form-group'>
+    <div class='col-sm-2'>
+    </div>
+    <div class='col-sm-4'>
+      <input placeholder="Phone" class="form-control" id="phone" name="phone" required="true" size="30" type="text" />
+    </div>
+    <div class='col-sm-4'>
+      <input placeholder="Course" class="form-control required" id="course" required="true" size="30" type="text" />
+    </div>
+    <div class='col-sm-2'>
+    </div>
   </div>
 
   <div class='row form-group'>
