@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Basic Bootstrap Template</title>
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- Optional Bootstrap theme -->
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -16,20 +17,81 @@
 <!-- <script src="js/bootstrap.min.js"></script> -->
 
     <style>
-
+#tr-navbar {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  background-color: transparent;
+}
+#img-header {
+  top: 0;
+}
+.logo {
+  top: 0.1px;
+  position: absolute;
+  height: 10vw;
+}
     </style>
 </head>
 <body>
 
-  <div class="row carousel-inner">
+<!-- <div class="container-full">
+    <div class="navbar navbar-default" id="tr-navbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Acasa<br />Bine ati venit!</a></li>
+            <li><a href="#">Despre noi<br />Descriere si misiune</a></li>
+            <li><a href="#">PRODUSE<br />Produsele noastre</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">PHOENIX GRUP<br />Membri</a></li>
+            <li><a href="#">PORTOFOLIU<br /> Lucrari executate</a></li>
+            <li><a href="#">Contact<br />Contact</a>
+                <li>
+        </ul>
+    </div>
     <div class="col-md-12">
-      <img src="contact.png" style="width: 100%;" class="img-responsive"/>
-      <div class="carousel-caption textContainer">
-        <h1>Contact US</h1>
-        <p>Have questions? We have answers(may be)</p>
-      </div>
+    <img id="img-header" src="contact.png" style="max-width:100%; height:auto;" />
+  </div>
+</div>
+ -->
+<div class="row container-full">
+<!--   <div class="navbar-header">
+
+    <a class="navbar-brand" href="#home"><img src="logo.png" height="60" width="160"></a>
+  </div> -->
+
+  <!-- <a class="navbar-brand" href="#">
+    <img src="logo.png" style="display: inline-block;">
+    <span style="display: inline-block;">My Company</span>
+  </a> -->
+  <!-- <div class="navbar navbar-default" id="logo">
+    <img src="logo.png" class="img-responsive"/>
+  </div> -->
+
+  <div class="navbar navbar-default" id="tr-navbar">
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#blog" data-toggle="tab">Blog</a></li>
+      <li class="active"><a href="#login" data-toggle="tab">Login</a></li>
+    </ul>
+
+  </div>
+
+  <div class="col-md-12">
+    <img src="contact.png" style="width: 100%;" class="img-responsive"/>
+    <img class="logo" src="logo.png" height="60" width="160">
+    <div class="carousel-caption textContainer">
+      <!-- <a class="navbar-brand" href="#home"><img src="logo.png" height="60" width="160"></a> -->
+      <!-- <img class="hidden-xs" src="logo.png" alt=""> -->
+      <!-- <a href="#" class="logo pull-left">
+        <img src="logo.png">
+      </a> -->
+
+      <h1>Contact US</h1>
+      <p>Have questions? We have answers(may be)</p>
     </div>
   </div>
+
+</div>
 
   <form name="contact-us" class="form-horizontal" role="form" method="post" action="send-message.php">
     <div>
