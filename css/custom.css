@@ -1,4 +1,4 @@
-.textContainer {
+div .textContainer {
   color: black;
   height: 75%;
   line-height: 100px;
@@ -10,4 +10,21 @@
 .divider {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+form hr {
+  width: 5%;
+  border-top-color: #1ced0e;
+  border-top-width: 2px;
+}
+.btn{
+  background-color: #10c004;
+  color: white;
+  margin-top: 20px;
+}
+.container {
+  padding-bottom: 100px;
+}
+.address hr{
+  border-top-color: grey;
+  border-top-width: 2px;
 }
