@@ -4,7 +4,10 @@
   line-height: 100px;
   font-size: 20px;
 }
-
 .textContainer h1 {
   font-size: 5.5vw;
+}
+.divider {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
