@@ -1,3 +1,12 @@
+#tr-navbar {
+  position: absolute;
+  right: 1%;
+  z-index: 2;
+  background-color: transparent;
+}
+#tr-navbar a{
+  color: white;
+}
 div .textContainer {
   color: black;
   height: 75%;
