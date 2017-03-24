@@ -40,3 +40,7 @@ form hr {
   border-top-color: grey;
   border-top-width: 2px;
 }
+body {
+  overflow-x: hidden;
+}
+
