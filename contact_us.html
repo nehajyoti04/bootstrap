@@ -16,20 +16,24 @@
     <!-- Latest compiled and minified JavaScript -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <style>
-    #img-header {
-    top: 0;
-    }
     .logo {
-    top: 0.1px;
-    position: absolute;
-    height: 10vw;
+      top: 0.1px;
+      position: absolute;
+      height: 10vw;
+    }
+    #tr-navbar li.active a {
+      background: #ff0023;
+    }
+    .navbar-nav {
+      margin-top: 20px;
+      margin-right: 25px;
     }
     </style>
   </head>
   <body>
 
     <div class="row container-full">
-      <div class="navbar navbar-default" id="tr-navbar">
+      <div class="navbar" id="tr-navbar">
         <ul class="nav navbar-nav">
           <li><a href="#blog" data-toggle="tab">Blog</a></li>
           <li class="active"><a href="#login" data-toggle="tab">Login</a></li>
