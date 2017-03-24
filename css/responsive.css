@@ -1,0 +1,9 @@
+@media only screen and (max-device-width: 480px) {
+  .textContainer p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .container.simple-text {
+    padding-bottom: 25px;
+  }
+}
